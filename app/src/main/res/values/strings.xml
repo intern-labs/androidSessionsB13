@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Counter App</string>
+    <string name="counter_count_message">Counter count: </string>
+    <string name="next_screen">Next Screen</string>
+    <string name="decrement_button_text">Decrement</string>
+    <string name="increment_button_text">Increment</string>
+</resources>
