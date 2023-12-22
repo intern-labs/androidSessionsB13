@@ -6,6 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     app:cardCornerRadius="16dp"
     android:layout_marginEnd="@dimen/horizontal_margin"
+    android:layout_marginBottom="@dimen/horizontal_margin"
     app:cardBackgroundColor="@color/teal_200">
 
     <TextView

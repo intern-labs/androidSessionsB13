@@ -7,7 +7,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 class FruitsAdapter(
-    private val fruitList: List<String>
+    private val fruitList: List<FruitsModel>
 ) : RecyclerView.Adapter<FruitsAdapter.FruitsViewHolder>() {
 
     override fun getItemCount(): Int {
@@ -26,7 +26,7 @@ class FruitsAdapter(
 
     // Added text to those cards. Data binding happens here.
     override fun onBindViewHolder(holder: FruitsViewHolder, position: Int) {
-        holder.fruitName.text = fruitList[position]
+        holder.fruitName.text = fruitList[position].title
     }
 
     class FruitsViewHolder(cardView: View) : RecyclerView.ViewHolder(cardView) {
